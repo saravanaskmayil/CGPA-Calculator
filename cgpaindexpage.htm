@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cgpa.css" />
+    <link rel="stylesheet" href="../normalize.css" />
+    <script src="cgpa.js"></script>
+    <title>CGPA CALCULATION</title>
+  </head>
+  <body>
+    <!--cgpa container html part-->
+    <div class="cgpa-container">
+      <!--cgpa title html part-->
+      <div class="cgpa-title">
+        <h3>CGPA CALCULATOR</h3>
+      </div>
+      <!--cgpa input html part-->
+      <div class="input-element">
+        <input
+          type="text"
+          id="first-cgpa"
+          placeholder="1st-semester"
+          required
+        />
+        <input
+          type="text"
+          id="second-cgpa"
+          placeholder="2nd-semester"
+          required
+        />
+        <input
+          type="text"
+          id="third-cgpa"
+          placeholder="3rd-semester"
+          required
+        />
+        <input
+          type="text"
+          id="fourth-cgpa"
+          placeholder="4th-semester"
+          required
+        />
+        <input
+          type="text"
+          id="fifth-cgpa"
+          placeholder="5th-semester"
+          required
+        />
+        <input
+          type="text"
+          id="sixth-cgpa"
+          placeholder="6th-semester"
+          required
+        />
+        <input
+          type="text"
+          id="seventh-cgpa"
+          placeholder="7th-semester"
+          required
+        />
+        <input
+          type="text"
+          id="eighth-cgpa"
+          placeholder="8th-semester"
+          required
+        />
+      </div>
+      <!--cgpa output html part -->
+      <div class="cgpa-output">
+        <h1 class="total_cgpa_msg">TOTAL CGPA &#61;</h1>
+
+        <button type="button" id="btn-reset" onclick="reset()">RESET</button>
+
+        <button type="button" id="btn-submit" onclick="cgpa()">SUBMIT</button>
+      </div>
+    </div>
+    <script src="cgpa.js"></script>
+  </body>
+</html>

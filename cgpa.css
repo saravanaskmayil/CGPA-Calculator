@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box;
+   */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(11, 192, 247) 0%, black 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin: 0;
+}
+
+.cgpa-container {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 7px 7px 6px 5px rgb(0, 0, 0);
+  line-height: 50px;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.cgpa-title {
+  width: 100%;
+  height: 50px;
+  background-color: #00abfa;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  color: white;
+  /* 
+  border-radius: ; */
+}
+
+/* .input-element input {
+  width: 10px;
+  height: 10px;
+  border: 40px;
+} */
+
+.input-element input {
+  /* position: relative; */
+  /* left: 40px; */
+  /* top: 20px; */
+  border: none;
+  background-color: white;
+  outline: none;
+  width: 220px;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  font-family: tahoma;
+  font-weight: bold;
+  color: rgb(43, 43, 87);
+  margin: 10px;
+}
+
+h1 {
+  position: relative;
+  left: 35px;
+}
+/* button {
+  /* position: relative;
+  left: 30%;
+  bottom: 15px;
+  padding: 10px;
+  border-radius: 20px; */
+/* border: none;
+  background-color: rgb(126, 173, 169);
+  outline: none;
+  width: 150px;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  font-family: tahoma;
+  font-weight: bold;
+  color: rgb(43, 43, 87);
+  padding: 10px;
+  position: relative;
+  left: 5.5rem;
+  border-radius: 50px;
+} */
+/* */
+/* ::placeholder {
+  color: #242627;
+  font-size: 15px;
+} */
+
+.cgpa-container .cgpa-output {
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 05px;
+}
+
+.cgpa-container .cgpa-output h1 {
+  font-family: arial;
+  font-size: 25px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+button {
+  position: relative;
+  left: 6.9rem;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(99, 136, 136);
+  box-shadow: 5px 3px 5px 3px rgb(0, 0, 0);
+  outline: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+#btn-reset {
+  padding-right: 2px;
+}
+#btn-submit {
+  padding-right: 2px;
+}
+
+#btn-reset:hover,
+#btn-submit:hover {
+  opacity: 0.5;
+  background: rgb(66, 192, 192);
+}
+
+.total_cgpa_msg {
+  color: #242627;
+}
+
+/* .btn2{
+
+} */
+
+
+/* 26 mon - html css all the concepts,projects oriented
+27 tues - css all the concepts , projects oriented
+28 wed - js basics concepts projects oriented
+29 thurs - js concepts projects oriented
+30 fri revise pannum
+31 sat revise pannum */
+
+
+
